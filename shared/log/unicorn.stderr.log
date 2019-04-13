@@ -379,3 +379,17 @@ I, [2019-04-13T08:15:31.081345 #8497]  INFO -- : worker=1 ready
 103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0040
 103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.1028
 103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0686
+125.231.5.137 - - [13/Apr/2019:08:56:05 +0000] "GET / HTTP/1.0" 401 - 0.0054
+13.232.20.181 - - [13/Apr/2019:08:57:41 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26623 0.0498
+13.232.20.181 - - [13/Apr/2019:08:58:10 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26623 0.0564
+122.161.35.214 - - [13/Apr/2019:08:58:50 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26790 0.0492
+122.161.35.214 - - [13/Apr/2019:08:59:16 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26701 0.0494
+122.161.35.214 - - [13/Apr/2019:09:00:10 +0000] "GET /contact-us HTTP/1.0" 404 26811 0.0535
+122.161.35.214 - - [13/Apr/2019:09:00:10 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0010
+5.188.210.101 - - [13/Apr/2019:09:19:10 +0000] "GET /echo.php HTTP/1.0" 404 26748 0.0629
+I, [2019-04-13T09:26:11.545759 #8485]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-04-13T09:26:11.557800 #8485]  INFO -- : Refreshing Gem list
+I, [2019-04-13T09:26:11.566105 #8485]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-04-13T09:26:11.669111 #8485]  INFO -- : reaped #<Process::Status: pid 8494 exit 0> worker=0
+I, [2019-04-13T09:26:11.669198 #8485]  INFO -- : reaped #<Process::Status: pid 8497 exit 0> worker=1
+I, [2019-04-13T09:26:11.669285 #8485]  INFO -- : master complete
